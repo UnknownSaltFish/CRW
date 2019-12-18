@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="bean" />
+        <module name="common" />
+        <module name="manager-api" />
+        <module name="manager-impl" />
+        <module name="potal-api" />
+        <module name="potal-impl" />
+        <module name="web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="bean" target="1.5" />
+      <module name="common" target="1.5" />
+      <module name="main" target="1.5" />
+      <module name="manager-api" target="1.5" />
+      <module name="manager-impl" target="1.5" />
+      <module name="parent" target="1.5" />
+      <module name="potal-api" target="1.5" />
+      <module name="potal-impl" target="1.5" />
+      <module name="web" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
